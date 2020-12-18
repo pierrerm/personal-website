@@ -42,8 +42,10 @@ h2 {
   display: none;
   position: absolute;
   right: 0;
-  top: 14vw;
-  width: 100vw;
+  top: 14.1vw;
+  width: 50%;
+  height: 100vh;
+  padding-top: 3vw;
   background-color: #131313;
   justify-content: flex-start;
   align-items: flex-end;
@@ -57,7 +59,7 @@ h2 {
   font-size: 5vw;
   text-decoration: none;
   display: block;
-  padding: 2vw 5vw;
+  padding: 3vw 10vw;
 }
 
 #sections-tab a:hover {
@@ -118,6 +120,7 @@ h2 {
 #contact-container {
   height: 100%;
   justify-content: space-evenly;
+  padding: 0vw 5vw;
 }
 
 #contact-content {
@@ -201,7 +204,9 @@ h2 {
   
   #sections-tab {
     width: auto;
+    height: auto;
     padding-right: 2vw;
+    padding-top: 0;
     display: inline;
     position: static;
     background-color: #e6e6e6;
