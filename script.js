@@ -1,5 +1,5 @@
 window.onscroll = function() {
-    toggleStickyNavBar()
+  if (document.getElementById("pop-up").style.display == "none") toggleStickyNavBar();
 };
 
 // Get the navbar
@@ -25,4 +25,9 @@ function toggleMenu() {
   } else {
     menu.style.display = "flex";
   }
+}
+
+// Hide the popup when you press the close button.
+function closePopup() {
+  document.getElementById("pop-up").style.display = "none";
 }
